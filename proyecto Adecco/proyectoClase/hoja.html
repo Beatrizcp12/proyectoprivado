@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rent a car</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="preload" href="./style.css" as="style">
+
+</head>
+<header>
+
+    <div class="user-menu">
+        <a href="#" class="login-link">Log In Cliente</a>
+        <a href="#" class="login-link">Log In Empresa</a>
+        <div class="language-dropdown">
+          <div class="language-dropdown-content">
+            <a href="#" onclick="changeLanguage('es')">Español</a>
+            <a href="#" onclick="changeLanguage('en')">Inglés</a>
+          </div>
+        </div>
+  
+       
+      </div>
+  
+   <h1 class="titulo">Rent a Car</h1>
+   <a href="#" id="reserva-link">Gestiona tu reserva</a>
+   <div class="lema">
+  </div>
+  <div>
+    <h2>Reservar Vehículo</h2>
+    <div class="form-container">
+        <form action="#" method="post" class="rental-form">
+            <label for="oficinaRecogida">Oficina de Recogida<span style="color:red;">*</span>:</label>
+            <input type="text" id="oficinaRecogida" name="oficinaRecogida" placeholder="Oficina de recogida" required>
+            
+            <label for="oficinaDevolucion">Oficina de Devolución<span style="color:red;">*</span>:</label>
+            <input type="text" id="oficinaDevolucion" name="oficinaDevolucion" placeholder="Oficina a devolver" required>
+            <div class="boton">Devolver en una oficina diferente</div>
+            <label><input type="checkbox" id="diferenteOficina" name="diferenteOficina"></label>
+            
+            <button type="submit">Reservar</button>
+        </form>
+    </div>
+  </div>
+    
+
+</header>
+<body>
+    
+<nav class="menu">
+    <ul>
+        <li><a href="#">Inicio</a></li>
+        <li><a href="#">Modelos</a>
+            <ul class="submenu">
+                <li><a href="#">Ferrari</a></li>
+                <li><a href="#">SUVs</a></li>
+                <li><a href="#">Deportivos</a></li>
+            </ul>
+        </li>
+        <li><a href="#">Contacto</a></li>
+        <li><a href="#">Sobre nosotros</a></li>
+    </ul>
+</nav>
+</div>
+
+<section class="coches">
+    <div class="coche">
+        <img src="./img/ultimo.jpg" alt="Coche de lujo 1">
+        <h2>Chevrolet corvette</h2>
+        <p>Este motor central magníficamente esculpido tiene una presencia imposible de ignorar.</p>
+    <strong><p class="precio">Precio: 600€/h</p></strong> 
+    </div>
+    
+    <div class="coche">
+        <img src="./img/Ferrari-F8-Spider_02.jpg" alt="Coche de lujo 2">
+        <h2>Ferrari F8</h2>
+        <p>Lista con mejoras en la carrocería y 50 caballos más de potencia.</p>
+        <strong><p class="precio">Precio: 500€/h</p></strong> 
+    </div>
+    <section class="coches">
+        
+        <div class="coche">
+            <img src="./img/lincoln-anniversary-concept-202180398-1629100974_1.webp" alt="Coche de lujo 1" class="imagen-coche1">
+            <h2>Lincoln</h2>
+            <p>Asientos confortables.</p>
+            <strong><p class="precio">Precio: 500€/h</p></strong>  
+        </div>
+    
+
+        <div class="feature-section">
+            <div class="feature-item">Asistencia en carretera 24 horas</div>
+            <div class="feature-item">Prueba el vehículo que quieras</div>
+            <div class="feature-item">Garantía premium disponible</div>
+            <div class="feature-item">Opcion de recogida a domicilio</div>
+        </div>
+    
+       
+        <section class="coches">
+            <div class="coche">
+                <img src="./img/newnew1.webp" alt="LAMBORGHINI HURACÁN STO">
+                <h2>LAMBORGHINI HURACÁN STO</h2>
+                <p>El Lamborghini más radical hasta el momento. </p>
+                <strong><p class="precio">Precio: 400€/h</p></strong> 
+            </div>
+    
+            <div class="coche">
+                <img src="./img/newnew2.webp" alt="Coche de lujo 2">
+                <h2>GORDON MURRAY T.50</h2>
+                <p>El McLaren F1 no fue perfecto, y su diseñador, Gordon Murray, ha querido resolver esa deuda. </p>
+                <strong><p class="precio">Precio: 300€/h</p></strong> 
+            </div>
+            
+            <div class="coche">
+                <img src="./img/newnew3.webp" alt="Coche de lujo 3">
+                <h2>HENNESSEY VENOM F5</h2>
+                <p> Hennessey es el tercero en la lucha por el récord mundial de velocidad junto a Bugatti y Koenigsegg.</p>
+                <strong><p class="precio">Precio: 700€/h</p></strong> 
+            </div>
+    
+            <div class="coche">
+                <img src="./img/new3.jpg" alt="Coche de lujo 4">
+                <h2>BUGATTI CHIRON SUPER SPORT</h2>
+                <p>El motor más espectacular del planeta en uno de los coches más rápidos del mundo. </p>
+                <strong><p class="precio">Precio: 500€/h</p></strong> 
+            </div>
+            
+            <div class="coche">
+                <img src="./img/newnew4.webp" alt="Coche de lujo 5">
+                <h2>MASERATI MC20</h2>
+                <p>Es el primer gran deportivo de la marca desde el MC12, y a sus espaldas lleva el sensacional motor V6 biturbo de 3,0 litros .</p>
+                <strong><p class="precio">Precio: 600€/h</p></strong> 
+            </div>
+    
+            <div class="coche">
+                <img src="./img/newnew5.webp" alt="Coche de lujo 6">
+                <h2> LAMBORGHINI SIAN</h2>
+                <p>Se presenta como un híbrido con un motor V12 atmosférico de 6,5 litros junto a un sistema eléctrico..</p>
+                <strong><p class="precio">Precio: 500€/h</p></strong> 
+            </div>
+        </section>
+    
+
+
+      </div>
+      <section class="subscribe-section">
+        <h2>Suscríbete para recibir novedades</h2>
+        <form action="#" method="post">
+          <label for="email"><strong>Correo electrónico:</strong></label>
+          <input type="email" id="email" name="email" placeholder="Tu correo electrónico" required>
+          <button class="boton2" type="submit">Suscribirse</button>
+        </form>
+      </section>
+      <script src="./java.js"></script>
+    </body>
+
+    <footer>
+        <div class="footer-section">
+            <div class="footer-column">
+                <h4>Atención al Cliente</h4>
+                <ul>
+                    <li>Contacto y Soporte</li>
+                    <li>Preguntas Frecuentes</li>
+                    <li>Guías de Uso</li>
+                    <li>Solicita Información</li>
+                    <li>¿Necesitas Ayuda?</li>
+                    <li>Mundo Renault</li>
+                </ul>
+            </div>
+            <div class="footer-column">
+                <h4>Suscríbete a nuestra Newsletter</h4>
+                <ul>
+                    <li>Ver Todos los Modelos</li>
+                    <li>Tipos de Modelos</li>
+                    <li>The Original Museum</li>
+                    <li>The Originals Store</li>
+                    <li>Enlaces Directos</li>
+                </ul>
+            </div>
+            <div class="footer-column">
+                <h4>Pide tu Oferta</h4>
+                <ul>
+                    <li>Pide una Prueba</li>
+                    <li>Catálogos</li>
+                    <li>My Renault</li>
+                    <li>Bases Legales Promociones</li>
+                    <li>Buscar y Comprar</li>
+                </ul>
+            </div>
+            <div class="footer-column">
+                <h4>Enlaces Útiles</h4>
+                <ul>
+                    <li>Vehículos Nuevos en Stock</li>
+                    <li>Vehículos de Ocasión</li>
+                    <li>Tasación de Vehículos</li>
+                    <li>Promociones Renault</li>
+                    <li>Encuentra un Concesionario</li>
+                </ul>
+            </div>
+        </div>
+        <div class="legal-section">
+            <p>Política de Privacidad | Información Legal | Política de Cookies</p>
+            <p>Configurar Cookies</p>
+        </div>
+    </footer>
+
+</body>
+</html>
+
+
+     
+</html>

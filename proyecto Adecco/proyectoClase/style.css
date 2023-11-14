@@ -1,0 +1,439 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url("./img/exte.jpg");
+  }
+  
+  header {
+    background-image: url('./img/El\ texto\ del\ párrafo\ \(1\).png');
+    padding: 5px 5px;
+    text-align: right;
+    margin:auto;
+  
+  }
+  
+  h1 {
+    vertical-align: baseline;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+  }
+  
+
+  
+
+
+  
+  .titulo {
+    font-family: 'Arial', sans-serif;
+    font-size: 36px;
+    color: #252525;
+    text-align: center;
+    margin-top: 5px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    text-shadow: 2px 2px 4px rgba(255, 0, 0, 0.5);
+    padding: 10px 20px;
+    margin-bottom: 0px;
+    text-decoration: underline;
+  }
+  
+  #reserva-link {
+    text-transform:initial;
+    color:black;
+    padding: 10px 10px;
+    border: 2px solid black;
+    border-radius: 8px;
+    margin-bottom: 50px;
+    font-weight: bold;
+    background-color: white;
+    transition: background-color 0.3s
+  }
+  #reserva-link:hover {
+
+      background-color: #45a049;
+  }
+  .info-section {
+    background-color: white;
+    width: 5000px;
+    height: 200px;
+  }
+  .feature-section {
+    margin-top: 30px;
+    background-color: black;
+    padding: 30px;
+    border-radius: 10px;
+    padding-left: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-weight: bold;
+    text-decoration: #252525;
+    width: 1250px;
+}
+
+
+
+
+.feature-item {
+    text-align: center;
+    width: 320px;
+    height: 40px;
+    color: white;
+    margin-left: 30px;
+    border-radius: 10px;
+    border-style:inset;
+  padding-top: 10px;
+}
+  
+  .lema {
+    padding: 10px;
+    text-align: left;
+    font-weight: bold;
+    letter-spacing: 5px;
+    text-decoration: underline;
+    
+  }
+  
+  .lema p {
+    margin: 0;
+    font-size: 16px;
+    color: #333;
+  }
+  
+  .menu {
+    background-color: #333;
+    padding: 10px 0;
+    width: 1280px;
+  }
+  
+  .menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .menu ul li {
+    margin-right: 20px;
+
+  }
+  
+  .menu a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    transition: color 0.3s;
+  }
+  
+  .menu a:hover {
+   
+  }
+  
+  .menu ul ul {
+    display: none;
+    position: absolute;
+    background-color: #333;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+  }
+  
+  .menu ul li:hover > ul {
+    display: block;
+  }
+  
+  .menu ul ul li {
+    width: 150px;
+    display: block;
+    margin: 0;
+  }
+  li {
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .menu ul ul a {
+    color: #fff;
+    padding: 10px;
+  }
+  
+
+  .coches {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 20px;
+  }
+  
+  .coche {
+    background-color: #fff;
+    border: 3px solid grey;
+    margin: 10px;
+    padding: 20px;
+    width: 300px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  .coche img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+    border: 2px solid grey;
+    transition: transform 0.3s;
+  }
+  
+  .coche:hover {
+    transform: scale(1.1);
+  }
+  
+  h2 {
+    font-size: 24px;
+    margin: 0;
+    font-family: 'Raleway', sans-serif;
+  }
+  
+  p {
+    margin: 0 0;
+    font-family: 'Open Sans', sans-serif;
+  }
+  
+  .descripcion {
+    background-color: #fff;
+    padding: 10px;
+    width: 60%;
+  }
+  
+  .precio {
+    color: blue;
+  }
+  
+
+  .faq-section {
+    max-width: 800px;
+    margin: 0 auto;
+    padding-top: 20px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column; 
+  }
+  
+  .faq-section h2 {
+    margin-top: 10px;
+    text-align: left; 
+    margin-bottom: 20px;
+  }
+  
+  .faq-item {
+    margin-bottom: 20px;
+    border: 1px solid black;
+    border-radius: 5px;
+    overflow: hidden;
+  }
+  
+  .faq-question {
+    cursor: pointer;
+    font-size: 18px;
+    margin: 0;
+    padding: 15px 20px;
+    color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    user-select: none;
+  }
+  
+  .faq-question::after {
+    content: " ▼";
+  }
+  
+  .faq-answer {
+    font-size: 16px;
+    margin: 0;
+    padding: 15px 20px;
+    display: none;
+    background-color: white;
+    color: black;
+  }
+  
+  .faq-item.active .faq-question::after {
+    content: " ▲";
+  }
+  
+  .faq-item.active .faq-question {
+    background-color: #f0f0f0;
+  }
+  
+  .arrow-down {
+    width: 0;
+    height: 0;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-top: 5px solid black;
+  }
+  
+  .faq-item.active .arrow-down {
+    transform: rotate(180deg);
+  }
+  .boton {
+    text-align: left;
+
+    margin-bottom: 5px;
+    margin-top: 5px;
+  }
+
+  .rental-form {
+    text-align: left;
+  }
+
+
+
+
+  .subscribe-section {
+    max-width: 400px;
+    margin-left: 20px; 
+    margin-top: 50px;
+    border-radius: 2px;
+    border-style:groove;
+    padding: 30px;
+  }
+  
+  .subscribe-section h2 {
+    text-align: left;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  label {
+    margin-bottom: 5px;
+  }
+  
+  input {
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  .subscribe-section h2 {
+    color: black;
+  }
+  
+  button {
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #45a049;
+  }
+  body {
+    font-family: 'Arial', sans-serif;
+    margin: 20px;
+}
+
+h2 {
+    color: #252525;
+    text-align: center;
+    margin-bottom: 30px;
+    margin-top: 0px;
+}
+
+.form-container {
+    max-width: 300px;
+    margin: 0 auto;
+}
+
+.rental-form {
+    padding: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+
+label {
+    display: block;
+    margin-top: 10px;
+}
+
+input {
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+.boton2 {
+  width: 100px;
+}
+
+
+
+
+
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 50px;
+  margin-top: 70px;
+  width: 1200px;
+}
+
+.footer-section {
+  display: flex;
+  justify-content: space-around;
+}
+
+.footer-column {
+  flex: 1;
+  margin-right: 20px;
+}
+
+h4 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+ul li {
+  margin-bottom: 5px;
+}
+
+.legal-section {
+  margin-top: 20px;
+  text-align: center;
+}
+
+
+ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+ul li a:hover {
+  text-decoration: underline; 
+}
+
+
+.user-menu {
+  background-color: aquamarine(255, 255, 255);
+}
